@@ -1,9 +1,29 @@
 
 <!DOCTYPE html>
+<!--
+1)Add Bootstrap to the site. -done-
+2)Style the site navigation so that you are using either tabs or pills. -done-
+3)Use a jumbotron or page header to call out big news - your restaurant is opening a new location!
+4)Make the site responsive using Bootstrap's grid system.
+  -The menu items should stack well, with no overlapping.
+  -The front page content should stack as well.
+  -Change the Home link to use an Icon from one of the supported fonts that looks like a house.
+5)Add a Carousel that rotates with three pieces of information:
+  -We're opening a new location!
+  -We're rolling out our seasonal menu, with special options for this season.
+  -The Drink of the Month is SG Special Brew.
+6)Use the Bootstrap form items for your Contact Us form, validate in Javascript that data has been provided and give a message that the information is valid without submitting it anywhere.
+7)Make sure that users who have JavaScript disabled know that this site is best viewed with JavaScript enabled.
+-->
+
+
+
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Sandwich Heaven</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/restaurantStyles.css">
 
     <style>
@@ -24,16 +44,22 @@
         <h1>Sandwich Heaven</h1>
       </header>
 
-      <nav>
+
+      <ul class="nav nav-tabs nav-fill">
+        <li class="nav-item">
+          <a class="nav-link active" href="Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>
+
+      </ul>
 
 
-          <a href="index.html">Home</a>
-          <a href="menu.html">Menu</a>
-          <a href="contact.html">Contact Us</a>
-
-      </nav>
-
-      <section >
+        <section >
         <img src="images/burger.jpg" alt="a restaurant banner" style=" margin-left:auto; margin-right: auto; display: block: width:400px; height:150px">
 
         <article id="description">
@@ -41,6 +67,12 @@
 
         </article>
       </section>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
       <footer>
         <div class="footer-content">
