@@ -3,24 +3,25 @@ body{
   background-color: #061739;
   color: white;
   font-family: sans-serif, arial, monospace;
-  min-width: 900px;
+
 }
 /*************
 header & nav, footer
 *************/
-h1{
-  
+/* h1{
+
   padding-top: 40px;
-}
-header{
+} */
+.header{
   margin-bottom: 35px;
-  font-size: 2em;
+  background-color: #4E648E;
   text-align: center;
+
 }
 header,
 footer{
   background: #4E648E;
-  height: 150px;
+  /* height: 150px; */
 
 }
 footer{
@@ -78,8 +79,8 @@ nav a:visted{
   text-decoration: underline;
 }
 .menu-item{
-  display: inline-block;
-  width: 30%;
+
+
   text-align: center;
   background-color: #4E648E;
   border: thin white solid;

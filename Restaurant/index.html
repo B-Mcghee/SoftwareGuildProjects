@@ -23,10 +23,11 @@
   <head>
     <meta charset="utf-8">
     <title>Sandwich Heaven</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/restaurantStyles.css">
 
-    <style>
+    <!-- <style>
       img{
         margin-left:auto;
          margin-right: auto;
@@ -34,20 +35,27 @@
          width:400px;
          height:150px;
       }
-    </style>
+    </style> -->
   </head>
   <body>
 
       <p class="top-name">Home</p>
 
-      <header>
-        <h1>Sandwich Heaven</h1>
+      <header >
+
+        <div class="jumbotron jumbotron-fluid header">
+            <h1 class="display-2" >Sandwich Heaven</h1>
+
+            <hr class="my-4">
+            <h3>A new location will be coming very soon!</h3>
+
+        </div>
       </header>
 
 
       <ul class="nav nav-tabs nav-fill">
         <li class="nav-item">
-          <a class="nav-link active" href="Index.html">Home</a>
+          <a class="nav-link active" href="Index.html"><i class="fas fa-home"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="menu.html">Menu</a>
@@ -60,7 +68,7 @@
 
 
         <section >
-        <img src="images/burger.jpg" alt="a restaurant banner" style=" margin-left:auto; margin-right: auto; display: block: width:400px; height:150px">
+        <img src="images/burger.jpg" alt="a restaurant banner" class="img-fluid mx-auto d-block img-thumbnail" style="max-height:400px;">
 
         <article id="description">
             <p>Restaurant Description <br><strong>Certified</strong> as the best sandwiches in all of the midwest. Have a taste of every culture from Texas Brisket, Italian Sausage or keep it old fashion with just our famous Burger and thick-cut French Fries. No reserverations needed, but patience is a virtue when you want the best sandwich in town. </p>
