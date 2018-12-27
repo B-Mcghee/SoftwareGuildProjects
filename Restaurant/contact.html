@@ -43,31 +43,56 @@
       <section class="container col-lg-12">
 
 
-        <form class=" " action="index.html" method="post" >
-            <label>Name:</label><input type="text"><br>
-            <label>Email:</label><input type="email"><br>
-            <label>Phone:</label><input type="text" ><br>
-            <label>Reason for Inquiry:</label>
-              <select>
+        <form class=" " action="index.html" method="post" onsubmit="return validateItems();"
+          onreset="resetForm();" class="form-inline">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" >
 
-                <option value="catering">Catering</option>
-                <option value="Private Party">Private Party</option>
-                <option value="feedback">Feedback</option>
-                <option value="Other">Other</option>
-              </select><br>
-            <label>Additional Information:<br><input type="textarea" name="name" rows="8" cols="80" > </label><br>
-            <label>Have you been to this restaurant</label>
-            <input type="radio" name="appearance" value="YES">Yes
-            <input type="radio" name="appearance" value="NO" checked="checked">No <br>
-            <label>Best days to contact you:</label>
-            <label>M</label><input type="checkbox">
-            <label>T</label><input type="checkbox">
-            <label>W</label><input type="checkbox">
-            <label>Th</label><input type="checkbox">
-            <label>F</label><input type="checkbox"> <br>
-            <br>
-            <input type="submit" name="Send Request" value="Submit">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="form-group">
+              <label>Reason for Inquiry:</label>
+                <select>
+
+                  <option value="catering">Catering</option>
+                  <option value="Private Party">Private Party</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label class="labelForm">Additional Information:<br><input type="textarea" name="name" rows="8" cols="80" class="form-control" > </label>
+            </div>
+            <div class="form-group">
+              <label>Have you been to this restaurant</label>
+              <input type="radio" name="appearance" value="YES">Yes
+              <input type="radio" name="appearance" value="NO" checked="checked">No <br>
+            </div>
+            <div class="form-group">
+              <label>Best days to contact:</label>
+              <label>M</label><input type="checkbox">
+              <label>T</label><input type="checkbox">
+              <label>W</label><input type="checkbox">
+              <label>Th</label><input type="checkbox">
+              <label>F</label><input type="checkbox">
+
+            </div>
+            <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+
+
+
+            
         </form>
+
       </section>
 
       <footer>

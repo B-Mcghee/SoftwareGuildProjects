@@ -3,15 +3,15 @@
 <!--
 1)Add Bootstrap to the site. -done-
 2)Style the site navigation so that you are using either tabs or pills. -done-
-3)Use a jumbotron or page header to call out big news - your restaurant is opening a new location!
-4)Make the site responsive using Bootstrap's grid system.
-  -The menu items should stack well, with no overlapping.
-  -The front page content should stack as well.
-  -Change the Home link to use an Icon from one of the supported fonts that looks like a house.
-5)Add a Carousel that rotates with three pieces of information:
-  -We're opening a new location!
-  -We're rolling out our seasonal menu, with special options for this season.
-  -The Drink of the Month is SG Special Brew.
+3)Use a jumbotron or page header to call out big news - your restaurant is opening a new location! -done-
+4)Make the site responsive using Bootstrap's grid system.-done-
+  -The menu items should stack well, with no overlapping. -done-
+  -The front page content should stack as well. -done-
+  -Change the Home link to use an Icon from one of the supported fonts that looks like a house. -done-
+5)Add a Carousel that rotates with three pieces of information: -done-
+  -We're opening a new location! -done-
+  -We're rolling out our seasonal menu, with special options for this season. -done-
+  -The Drink of the Month is SG Special Brew. -done-
 6)Use the Bootstrap form items for your Contact Us form, validate in Javascript that data has been provided and give a message that the information is valid without submitting it anywhere.
 7)Make sure that users who have JavaScript disabled know that this site is best viewed with JavaScript enabled.
 -->
@@ -42,15 +42,45 @@
       <p class="top-name">Home</p>
 
       <header >
-
         <div class="jumbotron jumbotron-fluid header">
-            <h1 class="display-2" >Sandwich Heaven</h1>
-
-            <hr class="my-4">
-            <h3>A new location will be coming very soon!</h3>
-
+            <h1 class="display-2 d-block w-100" >Sandwich Heaven</h1>
         </div>
+        <div id="carouselExampleIndicators" class="carousel slide homeInfo" data-ride="carousel" >
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <hr class="my-4">
+                <h3>A new location will be coming very soon!</h3>
+              </div>
+              <div class="carousel-item">
+                <hr class="my-4">
+                <h3>We're rolling out our seasonal menu, with special options for this season.<h3>
+               </div>
+              <div class="carousel-item">
+                <hr class="my-4">
+                <h3>The Drink of the Month is SG Special Brew.</h3>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+
+
+
       </header>
+
+
 
 
       <ul class="nav nav-tabs nav-fill">

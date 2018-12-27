@@ -13,9 +13,11 @@ header & nav, footer
   padding-top: 40px;
 } */
 .header{
-  margin-bottom: 35px;
   background-color: #4E648E;
   text-align: center;
+  padding-top:98px;
+  padding-bottom:98px;
+  margin: 0 0;
 
 }
 header,
@@ -24,16 +26,23 @@ footer{
   /* height: 150px; */
 
 }
+.homeInfo{
+  height:150px;
+  text-align: center;
+}
 footer{
   clear: both;
 }
+footer p:nth-child(2){
+  padding-bottom:30px;
+  margin-bottom: 0;
+}
 
 nav{
-  padding-top: 20px;
-  padding-bottom: 20px;
+
   border-top: thin #4E648E solid;
   border-bottom: thin #4E648E solid;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
 
 
@@ -49,24 +58,25 @@ nav a{
   border:thin white solid;
 
 }
-nav a:hover{
+li a:hover{
   text-decoration: underline;
   cursor:pointer;
 }
-nav a:active{
+ a:active{
   color: #061739;
   font-size: 1.1em;
   font-weight: 600;
   text-decoration: none;
 
 }
-nav a:visted{
+li a:visted{
   color:red ;
 
 }
 .top-name{
-  margin-left: 0;
-  border-bottom: thin #4E648E solid;
+  margin: 0;
+  border-bottom: thin white solid;
+
 }
 
 .footer-content{
@@ -88,6 +98,7 @@ nav a:visted{
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 /*********
 home page description
 *********/
@@ -110,6 +121,9 @@ main {
   background-color: #989898;
   color: white;
   padding-bottom: 25px;
+}
+section{
+  padding-top: 50px;
 }
 
 /***********
@@ -152,10 +166,10 @@ form{
 input[type="text"],
 input[type="email"]
 {
-  width:25%;
+  width:40%;
   margin-bottom: 25px;
 }
-input[type="submit"]{
+#submitButton{
   background-color: #4E648E;
   padding: 10px;
   border-radius: 15px;
@@ -171,7 +185,18 @@ input[type="checkbox"]
   margin-bottom: 25px;
 
 }
+input[type="checkbox"]{
+
+
+
+}
 input[type="textarea"]{
-  width: 400px;
+  width: 300px;
   height:100px;
+
+}
+.form-control{
+  margin-left: auto;
+  margin-right: auto;
+
 }
