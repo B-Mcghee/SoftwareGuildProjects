@@ -1,0 +1,2 @@
+order number,customer name,state,taxrate,product type,area,cost per sq ft,labor per sq ft,material cost,labor cost,tax,total
+1,Ruth Bader Ginsburg,OK,4.45,Linoleum,141.00,7.50,5.00,1057.50,705.00,70.50,1833.00,

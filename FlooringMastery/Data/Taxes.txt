@@ -1,0 +1,6 @@
+State,TaxRate
+CA,California,25.00,
+KY,Kentucky,6.00,
+MS,Mississppi,2.25,
+OK,Oklahoma,4.45,
+TX,Texas,4.45,
