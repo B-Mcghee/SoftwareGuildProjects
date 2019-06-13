@@ -63,8 +63,8 @@ li a:hover{
   cursor:pointer;
 }
  a:active{
-  color: #061739;
-  font-size: 1.1em;
+  color: red;
+
   font-weight: 600;
   text-decoration: none;
 
@@ -95,8 +95,10 @@ li a:visted{
   background-color: #4E648E;
   border: thin white solid;
   border-radius: 15px;
+
   margin-top: 15px;
   margin-bottom: 15px;
+
 }
 
 /*********
