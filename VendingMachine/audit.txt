@@ -1,0 +1,11 @@
+
+05/22/2019 08:53 : Purchased Tennis Ball
+05/22/2019 08:53 : Purchased Basketball
+05/22/2019 11:09 : Purchased Tennis Ball
+05/22/2019 11:10 : Attempted to buy Elephant, but did not have enough money
+05/22/2019 11:10 : Purchased Elephant
+05/22/2019 11:11 : Attempted to buy Elephant but it is sold out
+05/23/2019 07:44 : Attempted to buy Basketball, but did not have enough money
+05/23/2019 07:54 : Purchased Basketball
+05/23/2019 07:57 : Purchased Tennis Ball
+05/24/2019 12:38 : Purchased Tennis Ball
